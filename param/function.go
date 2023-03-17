@@ -36,4 +36,10 @@ func main() {
 	p2 := Person{name: "beomjin", age: 32}
 	print("p1 주소: ", &p1, "\n", "p2 주소: ", &p2, "\n")
 
+	// 위의 &p1주소와 다름
+	p1.toString()
+	p2.toString()
+
+	fmt.Println(p1.age)
+	fmt.Println(p2.age)
 }
